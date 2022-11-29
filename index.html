@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
+
 <body>
     <div class="container">
         <h1 class="form-title">ABC Tasarım Programı ve Satış Sözleşmesi</h1>
@@ -19,14 +22,15 @@
                     <input type="submit" value="formu temizle">
                 </fieldset>
             </div>
+
             <div class="form-1">
                 <fieldset class="form-2">
                     <legend>Kişisel Bilgiler</legend>
-                    <label for="securrity-id" class="title">Form Güvenlik ID</label>
+                    <label for="securrity-id" class="titles">Form Güvenlik ID</label>
                     <input type="text" disabled value="123456"> <br>
-                    <label for="ad" class="titles">ad</label>
+                    <label for="ad" class="titles">Ad</label>
                     <input type="text" name="ad" id="ad"> <br>
-                    <label for="soyad"  class="titles">Soyad</label>
+                    <label for="soyad" class="titles">Soyad</label>
                     <input type="text" name="soyad" id="soyad"> <br>
                     <label class="titles">Yaş</label>
                     <input type="number" id="yas" name="yas" min="18" max="59"><br>
@@ -40,15 +44,15 @@
                 <fieldset>
                     <legend>Diğer Bilgiler</legend>
                     <p><strong>Buradaki alanlar deneyimi kapsar</strong></p>
-                    <label for="" class="titiles">Sektöre giriş tarihi</label>
+                    <label for="" class="titles">Sektöre giriş tarihi</label>
                     <input type="text" id="date"> <br>
                     <label for="" class="titles">Sektör Deneyimi</label>
-                    <select name="Deneyim"  id="">Deneyim
+                    <select name="Deneyim" id="">Deneyim
                         <option value="1-5">1-5 Yıl</option>
                         <option value="1-5">6-10 Yıl</option>
                         <option value="1-5">11-15 </option>
                         <option value="1-5">15+ üzeri </option>
-            
+
                     </select> <br>
                     <label for="" class="titles">Programlama</label>
                     <select name="programlama dili" id="diller">
@@ -61,14 +65,15 @@
                         <option value="lua">LUA</option>
                     </select>
 
-                    
+
 
                 </fieldset>
             </div>
             <div class="form-1">
                 <fieldset class="form2">
                     <legend>Sözleşme Kopyası</legend>
-                    <textarea cols="50" rows="7" readonly>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeat possimus iure nulla maiores deleniti porro debitis qui! Quasi vero nesciunt quaerat, corrupti, eveniet est quisquam nihil excepturi, impedit exercitationem illo. Rem voluptatum sit nihil autem itaque doloremque distinctio repellendus.</textarea>
+                    <textarea cols="50" rows="7"
+                        readonly>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex placeat possimus iure nulla maiores deleniti porro debitis qui! Quasi vero nesciunt quaerat, corrupti, eveniet est quisquam nihil excepturi, impedit exercitationem illo. Rem voluptatum sit nihil autem itaque doloremque distinctio repellendus.</textarea>
                 </fieldset>
             </div>
             <div class="form-1">
@@ -84,4 +89,5 @@
     </div>
 
 </body>
+
 </html>
